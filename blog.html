@@ -1,0 +1,363 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- BOOSTAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+     <!-- ICON CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+     <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+
+
+
+    <style>
+      /* NAVBER START */
+.nav-right{
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 25px;
+}
+.nav-right a:hover{
+  background-color: white;
+  color: #000;
+  border-radius: 20px;
+}
+/* NAVBER END */
+
+
+/* HERO START  */
+      #hero{
+  position: relative;
+  background-image: url(https://c0.wallpaperflare.com/preview/304/131/640/beverage-blog-blogger-browsing.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+}
+#hero .overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
+#hero .contant{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%, -50%);
+  color: white;
+}
+/* HERO END */
+
+
+/* BLOG START */
+.blog-body{
+  position: relative;
+  max-width:350px;
+  max-height: 600px;
+  overflow: hidden;
+}
+.blog{
+  padding: 10px;
+}
+.blog-body img{
+  width: 100%;
+  height: 300px;
+}
+.iii{
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  top: -300px;
+  font-size: 70px;
+  padding: 80px;
+  transform: 0.5s;
+}
+.blog-body:hover .iii{
+  top: 0px;
+}
+.blog-body:hover .overlay-1{
+  position: absolute;
+  background-color: #000;
+  opacity: 0.6;
+}
+/* BLOG END */
+
+
+/* DO YOU START */
+.you{
+  text-align: center;
+}
+.bg{
+  background-color: black;
+  color: white;
+  padding:8px 20px;
+}
+.bg:hover{
+  background-color: navy;
+}
+/*DO YOU END  */
+
+/* BUSING START */
+.sp{
+  font-size: 20px;
+  padding: 20px;
+  color: blue;
+}
+/* BUSING END */
+
+</style>
+
+
+  </head>
+  <body>
+    
+<!-- NAVBER START -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-info ">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <img src="https://htmldemo.net/busing/busing/assets/images/logo/logo.png"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav-right">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="scerives.html">Scerives</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  
+    <div id="hero">
+      <div class="overlay"></div>
+      <div class="contant">
+        <span id="typed" class="fs-4"></span>
+        <h1>BEST SOLUTIONS</h1>
+        <p >Starting any business takes a huge leep of faith. You're jumping off a mountain and hoping your parachute will open and lead you and your business to success. </p>
+        <a href="#">DISCOVER MORE</a>
+        
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+<!-- NAVBER END -->
+
+<!-- BLOG START  -->
+<section id="blog">
+  <div class="container">
+    <h1 class="text-center">BLOG</h1>
+    <p class="text-center">Meet excellent blog styles</p>
+  </div>
+
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="blog-body text-center" >
+          <div class="overlay-1"></div>
+          <img src="https://htmldemo.net/busing/busing/assets/images/blog/small-image/1.jpg" width="100%"/>
+          <div class="blog"><br>
+            <div class="iii">
+              <span><i class="bi bi-plus"></i></span>
+            </div>
+            <h3>Decorate Your House</h3>
+            <span><i class="bi bi-person-fill"></i>Admin <i class="bi bi-alarm"></i>Dec 22, 2023</span>
+            <br>
+            <br>
+            <p>Camping out under a starry sky, in the middle of a tropical lowland rainforest's is Lorem isem dolor sit amete, consectetur adipisicing elided Quaerat reiciendis.</p>
+            <br>
+            <a href="#">KEEP REDING</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="blog-body" >
+          <div class="overlay-1"></div>
+          <img src="https://htmldemo.net/busing/busing/assets/images/blog/small-image/2.jpg" width="100%"/>
+          <div class="blog"><br>
+            <div class="iii">
+              <span><i class="bi bi-plus"></i></span>
+            </div>
+            <h3>Work Passionately</h3>
+            <span><i class="bi bi-person-fill"></i>Admin <i class="bi bi-alarm"></i>Dec 16, 2023</span>
+            <br>
+            <br>
+            <p>Work Passionately, we did a 10-day mini trip through Vermont, New Hampshire and Maine isem dolor sit amete, consectetur adipisicing elided Quaerat reiciendis.</p>
+            <br>
+            <a href="#">KEEP REDING</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="blog-body">
+          <div class="overlay-1"></div>
+          <img src="https://htmldemo.net/busing/busing/assets/images/blog/small-image/3.jpg" width="100%"/>
+          <div class="blog"><br>
+            <div class="iii">
+              <span><i class="bi bi-plus"></i></span>
+            </div>
+            <h3>Creativity At Work</h3>
+            <span><i class="bi bi-person-fill"></i>Admin <i class="bi bi-alarm"></i>Dec 12, 2023</span>
+            <br>
+            <br>
+            <p>Artist and writer's William Morris once he said, “Have nothing in your house that you do Lorem isem dolor sit amete, consectetur adipisicing elided Quaerat reiciendis.</p>
+            <br>
+            <a href="#">KEEP REDING</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<!-- BLOG END -->
+
+
+<!-- DO YOU START -->
+<section id="do">
+  <div class="container">
+   <div class="you">
+    <h1>Do you have any Projects ?</h1>
+    <br>
+    <p>Whether you want to work with us or are interested in learning more about what we do, we’d love to hear from you.</p>
+    <br>
+    <br>
+    <span class="bg"><a href="#">Contacts Now</a></span>
+   </div>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<!-- DO YOU END --> 
+
+<!-- BUSIGN START -->
+<section id="busign">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3">
+        <img src="https://htmldemo.net/busing/busing/assets/images/logo/logo.png"/>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consect ascing elit, sed do eiusmod incididunt ut labore et dolore Many desktop lishing packages and web page editors</p>
+        <br>
+        <span class="sp"><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i><i class="bi bi-apple"></i><i class="bi bi-youtube"></i></span>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <h3>OUR SERVCIE</h3>
+        <h3>______</h3>
+        <a href=""> > Mobile App Development</a><br>
+        <a href=""> > Ui/Ux Design</a><br>
+        <a href=""> > Web Development</a><br>
+        <a href=""> > Article Writting</a><br>
+        <a href=""> > Content Management</a><br>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <h3>QUICKLINK</h3>
+        <h3>_____</h3>
+        <a href="#"> > Home</a><br>
+        <a href="#"> > About</a><br>
+        <a href="#"> > Help Center</a><br>
+        <a href="#"> > Conditin</a><br>
+        <a href="#"> > Term Of Use</a><br>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-3">
+        <h3>GET IN TOUCH</h3>
+        <h2>_____</h2>
+        <p>Enter your email and receive the latest news from us.</p>
+        <a href="#">mdmosiur910@gmail.com <i class="bi bi-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- BUSIGN END -->
+
+<!-- FOOTER START -->
+<footer class="bg-info text-center p-3">
+  <p><strong>MD MOSIUR RAHMAN MUNNA</strong><br>E-larning and E-arning lit<br><strong>BOGURA POLY TECHNICAL INSTITUTE.</strong>
+  </p>
+</footer>  
+<!-- FOOTER END -->
+
+
+
+
+
+<!-- BOOSTAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- ASO JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- MAIN JS -->
+ <script src="java/main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

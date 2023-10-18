@@ -1,0 +1,325 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- BOOSTAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+     <!-- ICON CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+     <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+
+
+
+    <style>
+      /* NAVBER START */
+.nav-right{
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 25px;
+}
+.nav-right a:hover{
+  background-color: white;
+  color: #000;
+  border-radius: 20px;
+}
+/* NAVBER END */
+
+
+/* HERO START  */
+      #hero{
+  position: relative;
+  background-image: url(https://www.mediabistro.com/wp-content/uploads/2016/02/tips-on-getting-your-copywriter-portfolio-started.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+}
+#hero .overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
+#hero .contant{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%, -50%);
+  color: white;
+}
+/* HERO END */
+
+/* PORTFOLIO START */
+.port{
+  position: relative;
+  max-width:300px;
+  max-height: 300px;
+  overflow: hidden;
+}
+.port img{
+  width: 100%;
+  height: 100%;
+}
+.folio{
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  bottom: -100px;
+  align-items: center;
+  padding: 10px;
+}
+.port:hover .folio{
+  bottom: 0px;
+}
+.port:hover .overlay-3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity:0.4;
+}
+
+/* PORTFOLIO END */
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    
+<!-- NAVBER START -->
+    <footer>
+      <nav class="navbar navbar-expand-lg bg-info ">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"> <img src="https://htmldemo.net/busing/busing/assets/images/logo/logo.png"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav-right">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="scerives.html">Scerives</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </footer>
+  
+    <div id="hero">
+      <div class="overlay"></div>
+      <div class="contant">
+        <span id="typed" class="fs-4"></span>
+        <h1>BEST SOLUTIONS</h1>
+        <p>Starting any business takes a huge leep of faith. You're jumping off a mountain and hoping your parachute will open and lead you and your business to success. </p>
+        <a href="#">DISCOVER MORE</a>
+        
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+<!-- NAVBER END -->
+
+
+<section id="portfolio">
+  <h1 class="text-center">Portfolio </h1>
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="port">
+          <div class="overlay-3"></div>
+          <img src="https://htmldemo.net/busing/busing/assets/images/portfolio/1.jpg" width="100%"/>
+          <div class="folio">
+            <h6>COMPANY TYPEFACE</h6>
+            <a href="#">Design/Photography</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="port">
+          <div class="overlay-3"></div>
+          <img src="https://htmldemo.net/busing/busing/assets/images/portfolio/2.jpg" width="100%"/>
+          <div class="folio">
+            <h6>NATURE VIBES</h6>
+            <a href="#">Design/Photography</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="port">
+          <div class="overlay-3"></div>
+          <img src="https://htmldemo.net/busing/busing/assets/images/portfolio/03.jpg" width="100%"/>
+          <div class="folio">
+            <h6>TYPOGRAPHY DESIGN</h6>
+            <a href="#">Design/Photography</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="port">
+          <div class="overlay-3"></div>
+          <img src="https://htmldemo.net/busing/busing/assets/images/portfolio/04.jpg" width="100%"/>
+          <div class="folio">
+            <h6>DELIVER RESULT</h6>
+            <a href="#">Design/Photography</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="port">
+          <div class="overlay-3"></div>
+          <img src="https://htmldemo.net/busing/busing/assets/images/portfolio/05.jpg" width="100%"/>
+          <div class="folio">
+            <h6>TRULY CREATIVE</h6>
+            <a href="#">Design/Photography</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="port">
+          <div class="overlay-3"></div>
+          <img src="https://htmldemo.net/busing/busing/assets/images/portfolio/06.jpg" width="100%"/>
+          <div class="folio">
+            <h6>BEST OF THE WEB</h6>
+            <a href="#">Design/Photography</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- fortfolio end -->
+
+
+<!-- BUSIGN START -->
+<section id="busign">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3">
+        <img src="https://htmldemo.net/busing/busing/assets/images/logo/logo.png"/>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consect ascing elit, sed do eiusmod incididunt ut labore et dolore Many desktop lishing packages and web page editors</p>
+        <br>
+        <span class="sp"><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i><i class="bi bi-apple"></i><i class="bi bi-youtube"></i></span>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <h3>OUR SERVCIE</h3>
+        <h3>______</h3>
+        <a href=""> > Mobile App Development</a><br>
+        <a href=""> > Ui/Ux Design</a><br>
+        <a href=""> > Web Development</a><br>
+        <a href=""> > Article Writting</a><br>
+        <a href=""> > Content Management</a><br>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <h3>QUICKLINK</h3>
+        <h3>_____</h3>
+        <a href="#"> > Home</a><br>
+        <a href="#"> > About</a><br>
+        <a href="#"> > Help Center</a><br>
+        <a href="#"> > Conditin</a><br>
+        <a href="#"> > Term Of Use</a><br>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-3">
+        <h3>GET IN TOUCH</h3>
+        <h2>_____</h2>
+        <p>Enter your email and receive the latest news from us.</p>
+        <a href="#">mdmosiur910@gmail.com <i class="bi bi-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- BUSIGN END -->
+
+
+
+
+
+
+
+<!-- BOOSTAP JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+ <!-- ASO JS -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ <!-- MAIN JS -->
+ <script src="java/main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
